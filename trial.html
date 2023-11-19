@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Travels Booking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+        integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+        <style>
+            input.search {
+                font-size: 25px;
+           width: 260px;
+           border: 1px solid #555;
+           display: block;
+           padding: 9px 4px 9px 40px;
+           background: transparent url("/assets/search.svg") no-repeat 13px;
+           border-radius: 25px;
+       }
+       </style>
+</head>
+
+<body>
+    <section id="header">
+
+        <a href="index.html"><img src="./image/logo2.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <i id="cross" class="fa fa-times hambur" onclick="hidenav()"></i>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Discover.html">Discover</a></li>
+                <li><a href="about.html">About </a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><input class="search" type="search" placeholder="Search..."></li>
+                <li><a id = "sign-up" href="signup.html">Sign up</a></li>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag hambur" id="shop"></i></i></a>
+            <i id="bar" class="fa fa-bars" onclick="shownav()"></i>
+        </div>
+
+    </section>
+    <section id="hero">
+        <h4>Jobs fill your pocket</h4>
+        <h2>but adventures fill your soul...</h2>
+        <h1>True Travel And Booking</h1>
+        <p>Save more on cupons upto 70% off !</p>
+        <button class="hero-btn">Travel with us</button>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="./features/f1.png" alt="">
+            <h6>Brochures</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./features/f2.png" alt="">
+            <h6>Time</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./features/f4.png" alt="">
+            <h6>Promotion</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./features/f5.png" alt="">
+            <h6>Happy Coustomer</h6>
+        </div>
+        <div class="fe-box">
+            <img src="./features/f6.png" alt="">
+            <h6>24*7 Support</h6>
+        </div>
+    </section>
+    <section class="campus">
+        <h1> Popular Destinations In India</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, et minima! Rerum quisquam</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./image/mumbai.jpeg">
+                <div class="layer">
+                    <h3>Mumbai</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./image/agra 2.jpeg">
+                <div class="layer">
+                    <h3>Agra</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./image/kolkatta.jpeg">
+                <div class="layer">
+                    <h3>Kolkata</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <h1>Customers Review</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, et minima! Rerum quisquam</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./image/profine2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto adipisci at maxime mollitia
+                        delectus omnis culpa earum doloremque fuga placeat ullam ut aliquam, dignissimos</p>
+                    <h3>Cristiano Ronaldo</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="./image/profine1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto adipisci at maxime mollitia
+                        delectus omnis culpa earum doloremque fuga placeat ullam ut aliquam, dignissimos </p>
+                    <h3>Marina Fernandez</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            
+    </section>
+    </div>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign-up For Explore</h4>
+            <p>Get E-mail for Our Latest Offer And <span>Special Offer </span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Enter Your Email">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col "><img src="image/logo2.png" alt="" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address :</strong> J-11/125 Varanasi</p>
+            <p><strong>Phone :</strong>+91-656365362 </p>
+            <p class="space"><strong>Timming :</strong>10-10 Mon-Sat</p>
+            <div class="follow-us">
+                <h4>Follow-us</h4>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Term & Condition</a>
+            <a href="">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Sign In</a>
+            <a href="">Delivery Information</a>
+            <a href="">View Cart</a>
+            <a href="">My Wishlist</a>
+            <a href="">Track my order</a>
+            <a href="">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./pay/app.jpg" alt="">
+                <img src="./pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="./pay/pay.png" alt="">
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Made <i class="fa fa-heart-o color"></i> With Code breaker</p>
+    </div>
+    <script src="https://kit.fontawesome.com/a06d28686c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

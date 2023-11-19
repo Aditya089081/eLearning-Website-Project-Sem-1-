@@ -1,0 +1,82 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li.logo{
+    margin-right:100px;
+}
+button.login{
+    background-color:rgba(0, 229, 255, 0.924);
+    color:white;
+    border-radius:40%;
+
+
+}
+.cource,a:hover{
+    color:aquamarine;
+
+}
+.cource,a:visited{
+    color:brown;
+
+}
+.cource,a:active{
+    color:whitesmoke;
+
+}
+.Certificate{
+    float:right;
+    height:100px;
+    width:200px;
+}
+.sample_certificate{
+    border:1px solid orange;
+
+}
+.footer{
+    background-image:url("footer.jpeg");
+    background-size:none;
+
+}
+#All_Cources{
+    text-align:left;
+    display:flex
+}
+#Html_Css{
+    width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 5px;
+}
+h2{
+    text-align:left;
+    
+}
+.courseP{
+    text-align:left
+}
+.navbar{
+    background-color:black;
+
+}
